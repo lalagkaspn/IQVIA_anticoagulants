@@ -6,4 +6,4 @@ You can find all descriptive statistics and visualizations in the provided Jupyt
 
 The Jupyter notebook requires as input a table where the first column contains month/year entries (e.g., 01/2018) and the following columns contain monthly DDD/1,000 inhabitants/day values (one column per drug). However, we are not permitted to redistribute the IQVIA Hellas data. Therefore, you will not be able to succesfully run the Jupyter notebook. We simply provide it for reference in case you want to see what we did.
 
-If you have any questions, please reach out to panagiotis.lalagkas@gmail.com.
+If you have any questions, please reach out to [panagiotis.lalagkas@gmail.com](mailto:panagiotis.lalagkas@gmail.com)

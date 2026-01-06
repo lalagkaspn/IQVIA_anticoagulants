@@ -3,8 +3,9 @@
 In this work, we aim to quantify national trends in ambulatory anticoagulant consumption in Greece during 2018–2022 and to forecast utilization through 2030 using standardized drug-utilization metrics (Defined Daily Dose/1,000 inhabitants/day). To achieve this, we conduct a retrospective pharmacoepidemiological analysis of national anticoagulant sales data provided by IQVIA Hellas. This data represents community pharmacy sales and we use it as a proxy for population-level drug use. For each anticoauglant drug, we examine drug-specific temporal trends and train SARIMA models to forecast consumption through 2030. Our main conclusion is that anticoagulant utilization in Greece has shifted toward direct oral anticoagulants (DOACs), with concurrent declines in vitamin K antagonists.
 
 In this repository you will find:
-- `Anticoagulants_analysis.ipynb`: Jupyter notebook including all all descriptive statistics and visualizations (`environment.yml` is the accompanying conda environment). At the end of the Jupyter notebook, you can find all the libraries we used and their versions.
-- `sarima_hyperparameter_results.csv`: results from the SARIMA model training
+- `Anticoagulants_analysis.ipynb`: Jupyter notebook including all analyses and visualizations we did. At the end of the Jupyter notebook, you can find all the libraries we used and their versions.
+- `environment.yml`: the accompanying conda environment.
+- `sarima_hyperparameter_results.csv`: SARIMA model training results.
 -  `sarima_future_forecasts_with_CI.csv`: drug consumption forecasts with 95% confidence intervals. 
 
 The Jupyter notebook requires as input a table where the first column contains month/year entries (e.g., 01/2018) and the following columns contain monthly DDD/1,000 inhabitants/day values (one column per drug). However, we are not permitted to redistribute the IQVIA Hellas data. Therefore, you will not be able to succesfully run the Jupyter notebook. We simply provide it for reference in case you want to see what we did.
